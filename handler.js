@@ -8,11 +8,11 @@ var handler = {
 }; 
 
 function hello(data, cb){
-	cb (200, {'message': 'Hello from Restful Api\n'}); 
+	cb (200, {'message': 'Hello from Restful Api'}); 
 }
 
 function notFound (data, cb){
-	cb(404, {'message': 'Unauthorized / Route not exists\n'}); 
+	cb(404, {'message': 'Unauthorized / Route not exists'}); 
 }
 
 module.exports = handler; 
